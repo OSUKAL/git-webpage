@@ -1,5 +1,5 @@
 html {
-    font-size: 62.5%;
+    font-size: 15px;
 }
 
 *,
@@ -13,7 +13,7 @@ h1, h2, h3, h4 ,h5, h6 {
 }
 
 p {
-    margin: 0;
+    margin: 0 0 1rem;
 }
 
 ul {
@@ -40,7 +40,7 @@ body {
     flex-direction: column;
     max-width: 100%;
     height: 100vh;
-    min-height: 77rem;
+    overflow: hidden;
 }
 
 
@@ -48,7 +48,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 100rem;
+    max-width: 1100px;
 
     margin: 0 auto;
     padding: 0 1rem;
@@ -59,6 +59,8 @@ body {
 
 .header {
     background: #0d0d0d;
+
+    margin-bottom: 6.5rem;
 }
 
 .header__inner {
@@ -68,7 +70,7 @@ body {
 }
 
 .header__logo {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -97,7 +99,7 @@ body {
 
     padding: 1.65rem 2.2rem;
 
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #fff;
     line-height: 1.1;
     text-transform: uppercase;
@@ -161,8 +163,56 @@ body {
 }
 
 
+/* Content */
+
+.content {
+    max-width: 40rem;
+}
+
+.content__header {
+    margin-bottom: 2.5rem;
+}
+
+.suptitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.title span {
+    color: #146679;
+    text-transform: capitalize;
+}
+
+.text {
+    font-size: 1rem;
+}
+
+.text span {
+    color: #146679;
+}
 
 
+/* Van */
+
+.van svg {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+/* Footer */
+
+.footer {
+    margin-top: auto;
+    padding: 2rem 0 3rem;
+}
 
 
 
