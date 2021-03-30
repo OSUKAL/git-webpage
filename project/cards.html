@@ -6,7 +6,7 @@
 
     <meta name="viewport" width="width=device-width" content="initial-scale=1">
 
-    <title>Personal page | Home</title>
+    <title>Personal page | Infocards</title>
 </head>
 
 <body>
@@ -28,7 +28,7 @@
                     <nav class="nav">
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a class="nav__link" href="#">Главная</a>
+                                <a class="nav__link" href="index.html">Главная</a>
                             </li>
 
                             <li class="nav__item">
@@ -36,7 +36,7 @@
 
                                 <ul class="subnav">
                                     <li>
-                                        <a class="subnav__link" href="cards.html">Infocards</a>
+                                        <a class="subnav__link" href="#">Infocards</a>
                                     </li>
 
                                     <li>
@@ -54,13 +54,54 @@
         <div class="container">
             <main class="content">
                 <div class="content__header">
-                    <h2 class="suptitle">My name is</h2>
-                    <h1 class="title">Van Darkholme and I'm <span>performance artist</span></h1>
+                    <h1 class="title">Информативные <span>фотокарточки</span></h1>
                 </div>
-                <div class="text">
-                    <p>Меня зовут Руслан, в настоящее время я обучаюсь в <span title="Дальневосточный федеральный университет">ДФВУ</span> на направлении <span title="Прикладная математика и информатика">ПМИ</span>. На текущей стадии становления IT-cпециалистом значимых достижений в сфере не имею. Самостоятельно обучался верстке сайтов; имею базовые знания <span title="Саня пидор">ЯП</span> Python, C#; на  <span title="KEKL">базово-продвинутом</span> уровне владею C++.</p>
-                    <p><span title="Скурил">План</span> дальнейшего развития предполает углубленное изучение front-end веб разработки с переходом на back-end; продолжение освоения С++, Python.</p>
-                </div>
+
+                <div class="info"><!-- .info -->
+
+                    <div class="info__item">
+                        <div class="info__header">
+                            <img src="assets/images/card2.jpg" alt="">
+                        </div>
+
+                        <div class="info__content">
+                            <h3 class="info__title">STALKER 2 не придется ждать 10 лет</h3>
+
+                            <div class="info__text">
+                                <p>Пользователи сообщают, что GSC недавно открыли вакансии тестировщиков, недавно было отмечено, что вакансии ушли в архив, что говорит о наборе необходимого штата и начале работы.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info__item">
+                        <div class="info__header">
+                            <img src="assets/images/card3.jpg" alt="">
+                        </div>
+
+                        <div class="info__content">
+                            <h3 class="info__title">Вид на Суэцкий канал с МКС</h3>
+
+                            <div class="info__text">
+                                <p>Космонавт «Роскосмоса» Сергей Кудь-Сверчков показал, как с МКС выглядят работы по разблокировке Суэцкого канала, где перекрыто движение судов из-за севшего на мель суперконтейнеровоза Ever Given.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info__item">
+                        <div class="info__header">
+                            <img src="assets/images/card4.jpg" alt="">
+                        </div>
+
+                        <div class="info__content">
+                            <h3 class="info__title">Приквелу "Игры престолов" быть</h3>
+
+                            <div class="info__text">
+                                <p>По данным The Hollywood Reporter, в разработку запущена театральная постановка-приквел «Игры престолов».Над ней работает сам Джордж Мартин, а также автор пьес Дункан Макмиллан.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- /.info-->
             </main>
         </div>
 
@@ -80,6 +121,7 @@
             </div>
         </footer>
 
-    </div><!-- /.page -->
+    </div>
+
 </body>
 </html>
