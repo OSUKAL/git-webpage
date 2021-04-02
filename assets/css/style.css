@@ -301,8 +301,6 @@ body {
 
     object-fit: cover;
 
-    transform: scale(1.02);
-
     transition: transform 1s ease-in-out, opacity .3s ease-in-out;
 
     position: absolute;
